@@ -1,0 +1,38 @@
+/* Import Google Fonts */
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Bodoni+Moda:opsz@6..96&family=Phudu&family=Poppins&family=Press+Start+2P&family=Roboto:wght@400;500;700;900&family=Rubik+Mono+One&display=swap");
+
+/* Reset margin dan smoothing font untuk body */
+body {
+  margin: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: black;
+  font-family: "Bebas Neue", "Bodoni Moda", "Poppins", "Roboto",
+    "Rubik Mono One", sans-serif;
+}
+
+/* Style untuk gambar */
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* Style untuk h2 */
+h2 {
+  text-align: center;
+  color: white;
+  text-shadow: -0.04em 0.04em 0 #000, 0.04em 0.04em 0 #000,
+    0.04em -0.04em 0 #000, -0.04em -0.04em 0 #000;
+  font-size: 50px; /* Default font size */
+}
+
+/* Media query untuk layar berukuran kecil dan sedang */
+@media (max-width: 1024px) {
+  body,
+  h2 {
+    font-size: 40px; /* Adjust font size for smaller screens */
+  }
+  h2 {
+    font-size: 30px; /* Further adjust font size for h2 on smaller screens */
+  }
+}
